@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button, input, label, textarea {
+  display: block;
+  outline: none;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+input.error, textarea.error {
+  border: 1px solid red;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-decoration: solid;
+  background-color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
